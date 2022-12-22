@@ -1,0 +1,17 @@
+section {
+    width: 100%;
+    height:100vh;
+    border: 2px solid black;
+}
+
+#about {
+    color: blue;
+}
+
+p.purple {
+    color: blueviolet;
+}
+
+.orange {
+    color: orange;
+}
