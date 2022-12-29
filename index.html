@@ -1,28 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <section>
+      <nav>
+        <img class="logo" src="./practice/FES.svg" alt="" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row">
+        <div>
+          <h1>Best place to learn Frontend</h1>
+          <p class="subheader">
+            Go from being an absolute beginner to pro with a simplified process
+          </p>
+          <button>Start Now</button>
+        </div>
+        <figure>
+          <img src="./practice/laptop.png" alt="Home page image" />
+        </figure>
+        </div>
+      </header>
+    </section>
 
-</head>
-<body>
-    <section id="home">
-    <h1>Homepage</h1>
-    <p id="about" class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, dolor!</p>
-    <a href="#info">Go to Info</a>
-    </section>
-    <section id="info">
-        <h1>Info</h1>
-        <p class="purple">Hi, I'm currently learning CSS. This is a lot of fun.</p>
-    <a href="#footer">Go to Footer</a>
-    </section>
-    <section id="footer">
-        <h1>Footer</h1>
-        <p class="orange">This is the footer for this page.</p>
-        <a href="#home">Top of page</a>
-    </section>
-</body>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="row">
+        <div class="section__description">
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+            voluptatum vero sint veniam neque commodi, beatae modi pariatur
+            dicta aliquid soluta consectetur fugiat reprehenderit aperiam
+            laboriosam, facilis corporis, repellat eius.
+          </p>
+          <p class="section__description--para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+            doloremque ducimus quos at a labore, maiores aspernatur dolor alias
+            ex sunt sapiente quisquam tempora ipsum ut odio corporis adipisci
+            perferendis.
+          </p>
+        </div>
+        <figure class="about__img--wrapper">
+          <img src="./practice/about.jpg" alt="" />
+        </figure>
+        </div>
+        </div>
+      </section>
+      <section id="discord">
+        <h2>Discord</h2>
+        <div class="row">
+        <div class="section__description">
+        <figure class="discord__img--wrapper">
+            <img src="./practice/discord.png" alt="" />
+        </figure>
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt,
+            rerum eos obcaecati quia qui deserunt numquam quos! Ducimus labore
+            commodi suscipit architecto saepe, ab nulla deserunt, vitae, ipsum
+            non dolores!
+          </p>
+          <p class="section__description--para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eos
+            modi illum consectetur quam cumque nostrum voluptas itaque pariatur
+            error.
+          </p>
+        </div>
+        </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+          <span>Email</span>
+          <input type="text" placeholder="example@example.com" />
+          <span>Message</span>
+          <textarea type="text" placeholder="example@example.com"></textarea>
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <figure class="footer__img">
+        <img src="./practice/FES.svg" alt="" />
+        </figure>
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+      </div>
+      <p>Copyright Frontend Simplified</p>
+    </footer>
+  </body>
 </html>
